@@ -10,7 +10,7 @@ func suite4_test1() {
     let timer = Timer()
 
     let numObjects = 1
-    let numLoops = 10000000
+    let numLoops = 100000000
 
     var firstElem: AdvancedLinkedList?
     var currElem: AdvancedLinkedList?
@@ -38,7 +38,7 @@ func suite4_test2() {
     let timer = Timer()
 
     let numObjects = 10
-    let numLoops = 1000000
+    let numLoops = 10000000
 
     var firstElem: AdvancedLinkedList?
     var currElem: AdvancedLinkedList?
@@ -66,7 +66,7 @@ func suite4_test3() {
     let timer = Timer()
 
     let numObjects = 100
-    let numLoops = 100000
+    let numLoops = 1000000
 
     var firstElem: AdvancedLinkedList?
     var currElem: AdvancedLinkedList?
@@ -94,7 +94,7 @@ func suite4_test4() {
     let timer = Timer()
 
     let numObjects = 1000
-    let numLoops = 10000
+    let numLoops = 100000
 
     var firstElem: AdvancedLinkedList?
     var currElem: AdvancedLinkedList?
@@ -122,7 +122,7 @@ func suite4_test5() {
     let timer = Timer()
 
     let numObjects = 10000
-    let numLoops = 1000
+    let numLoops = 10000
 
     var firstElem: AdvancedLinkedList?
     var currElem: AdvancedLinkedList?
@@ -150,7 +150,7 @@ func suite4_test6() {
     let timer = Timer()
 
     let numObjects = 100000
-    let numLoops = 100
+    let numLoops = 1000
 
     var firstElem: AdvancedLinkedList?
     var currElem: AdvancedLinkedList?
@@ -178,7 +178,7 @@ func suite4_test7() {
     let timer = Timer()
 
     let numObjects = 1000000
-    let numLoops = 10
+    let numLoops = 100
 
     var firstElem: AdvancedLinkedList?
     var currElem: AdvancedLinkedList?
@@ -206,7 +206,7 @@ func suite4_test8() {
     let timer = Timer()
 
     let numObjects = 10000000
-    let numLoops = 1
+    let numLoops = 10
 
     var firstElem: AdvancedLinkedList?
     var currElem: AdvancedLinkedList?

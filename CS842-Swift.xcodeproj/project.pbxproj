@@ -40,7 +40,7 @@
 		141906492B069B42009CCDF6 /* AdvancedLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLinkedList.swift; sourceTree = "<group>"; };
 		1419064B2B06A8F1009CCDF6 /* TestSuite4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSuite4.swift; sourceTree = "<group>"; };
 		14C18CFE2B067BFF000779F8 /* CS842-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS842-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14C18D012B067BFF000779F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		14C18D012B067BFF000779F8 /* main.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

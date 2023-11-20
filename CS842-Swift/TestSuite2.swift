@@ -5,7 +5,7 @@
 //  Created by Alexandru Bara on 2023-11-16.
 //
 
-let NUM_ASSIGNMENTS: Int = 10000000
+let NUM_ASSIGNMENTS: Int = 1000000000
 
 public func suite2_test1() {
     var value: Int = 0
