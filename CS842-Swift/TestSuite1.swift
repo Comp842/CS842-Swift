@@ -4,6 +4,7 @@
 //
 //  Created by Alexandru Bara on 2023-11-16.
 //
+import Foundation
 
 func suite1_test1() {
     // Start the timer
