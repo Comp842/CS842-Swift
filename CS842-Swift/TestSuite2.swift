@@ -5,7 +5,7 @@
 //  Created by Alexandru Bara on 2023-11-16.
 //
 
-let NUM_ASSIGNMENTS: Int = 1000000000
+let NUM_ASSIGNMENTS: Int = 10000000
 
 public func suite2_test1() {
     var value: Int = 0
@@ -13,10 +13,23 @@ public func suite2_test1() {
     // Start the timer
     let timer = Timer()
 
-    // Perform the assignments
-    for i in 0..<NUM_ASSIGNMENTS {
-        value = Int(i)
-    }
+//    for i in 0..<200 {
+//        if let memoryUsage = getMemoryUsage() {
+//            print("\(memoryUsage)")
+//        } else {
+//            print("Unable to retrieve memory usage.")
+//        }
+        
+        // Perform the assignments
+        for i in 0..<NUM_ASSIGNMENTS {
+            value = Int(i)
+        }
+//        if let memoryUsage = getMemoryUsage() {
+//            print("\(memoryUsage)")
+//        } else {
+//            print("Unable to retrieve memory usage.")
+//        }
+//    }
 
     // Stop the timer and calculate the elapsed time
     let elapsedSeconds = timer.getTimeSeconds()

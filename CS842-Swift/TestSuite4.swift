@@ -184,6 +184,11 @@ func suite4_test7() {
     var currElem: AdvancedLinkedList?
 
     for _ in 0..<numLoops {
+//        if let memoryUsage = getMemoryUsage() {
+//            print("\(memoryUsage)")
+//        } else {
+//            print("Unable to retrieve memory usage.")
+//        }
         firstElem = AdvancedLinkedList()
         currElem = firstElem
 
@@ -192,6 +197,11 @@ func suite4_test7() {
             currElem?.setNext(nextElem)
             currElem = nextElem
         }
+//        if let memoryUsage = getMemoryUsage() {
+//            print("\(memoryUsage)")
+//        } else {
+//            print("Unable to retrieve memory usage.")
+//        }
     }
 
     // Stop the timer and calculate the elapsed time

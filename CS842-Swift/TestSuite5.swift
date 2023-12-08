@@ -208,10 +208,20 @@ func suite5_test8() {
 
     // Run the loop
     for i in 0..<numLoops {
+//        if let memoryUsage = getMemoryUsage() {
+//            print("\(memoryUsage)")
+//        } else {
+//            print("Unable to retrieve memory usage.")
+//        }
         var tree = BinarySearchTree<Int>()
         for _ in 0..<numObjects {
             tree.insert(i)
         }
+//        if let memoryUsage = getMemoryUsage() {
+//            print("\(memoryUsage)")
+//        } else {
+//            print("Unable to retrieve memory usage.")
+//        }
     }
 
     // Stop the timer and calculate the elapsed time
