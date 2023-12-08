@@ -15,6 +15,7 @@
 		141906482B0698D3009CCDF6 /* TestSuite3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141906472B0698D3009CCDF6 /* TestSuite3.swift */; };
 		1419064A2B069B42009CCDF6 /* AdvancedLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141906492B069B42009CCDF6 /* AdvancedLinkedList.swift */; };
 		1419064C2B06A8F1009CCDF6 /* TestSuite4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419064B2B06A8F1009CCDF6 /* TestSuite4.swift */; };
+		14ADF52C2B1BA5E1003FDA9C /* TestSuite5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ADF52B2B1BA5E1003FDA9C /* TestSuite5.swift */; };
 		14C18D022B067BFF000779F8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C18D012B067BFF000779F8 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		141906472B0698D3009CCDF6 /* TestSuite3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSuite3.swift; sourceTree = "<group>"; };
 		141906492B069B42009CCDF6 /* AdvancedLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLinkedList.swift; sourceTree = "<group>"; };
 		1419064B2B06A8F1009CCDF6 /* TestSuite4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSuite4.swift; sourceTree = "<group>"; };
+		14ADF52B2B1BA5E1003FDA9C /* TestSuite5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSuite5.swift; sourceTree = "<group>"; };
 		14C18CFE2B067BFF000779F8 /* CS842-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS842-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C18D012B067BFF000779F8 /* main.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 				1419063F2B067C9C009CCDF6 /* TestSuite2.swift */,
 				141906472B0698D3009CCDF6 /* TestSuite3.swift */,
 				1419064B2B06A8F1009CCDF6 /* TestSuite4.swift */,
+				14ADF52B2B1BA5E1003FDA9C /* TestSuite5.swift */,
 			);
 			path = "CS842-Swift";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				141906462B0697EF009CCDF6 /* SimpleLinkedList.swift in Sources */,
 				1419064C2B06A8F1009CCDF6 /* TestSuite4.swift in Sources */,
+				14ADF52C2B1BA5E1003FDA9C /* TestSuite5.swift in Sources */,
 				141906442B069443009CCDF6 /* TestObject.swift in Sources */,
 				14C18D022B067BFF000779F8 /* main.swift in Sources */,
 				141906482B0698D3009CCDF6 /* TestSuite3.swift in Sources */,
